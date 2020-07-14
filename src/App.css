@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.alert{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+} 
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.loginmain{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.logo{
+    width: 170%;
+    padding-left: 10px;
+   
+}
+.logos{
+    text-align: center;
+   
+}
+.shadow{
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.5) !important;
+    width: 70% !important;
+    height: 520px;
+
+}
+h5{
+    text-align: left !important;
+}
+.row2{
+    padding-left: 70px;
+    margin-top: 30px;
+}
+.title{
+    margin-top: 15px;
+    color: #d92027;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.row2{
+    margin-bottom: 30px;
+}
+.right{
+    margin-left: -14px;
+}
+.form-control{
+    position: relative;
+    height: 30px;
+    border: none !important ;
+    border-bottom: 1px solid gray !important;
+    border-radius: 0px;
+    color: gray;
+}
+small{
+    color: gray;
+
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border-bottom: 2px solid #222;
+}
+.buttun{
+   text-align: center;
+   
+}
+.btn{
+    padding-left: 130px !important;
+    padding-right: 120px;
+    box-shadow: 0 10px 30px 0 rgba(54, 80, 95, 0.1) !important;
+    margin-bottom: 20px;
+}
+.forgot{
+    color: #f0a500;
+}
+.car{
+    height: 520px;
+    width: 170%;
+    
+}
+.colom2{
+    margin-left: 170px !important;
+}
+.signsmall{
+    font-size: x-small;
+    padding-left: 25px;
+    padding-right: 5px;
+    float: left;
+    padding-top: 9px;
+}
+p{
+    font-size:small;
+    padding-top: 5px;
+    color: #d92027 ;
+}
+
+hr{ 
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.continue small{
+    text-align: center !important;
+    margin-left: 80px;
+}
+.row5{
+    text-align: center;
+    padding-left: 90px;
+    margin-top: 10px;
+}
+.imgg{
+    width: 200% !important;
+    cursor: pointer !important;
+}
+@media(max-width:1200px){
+    .loginmain{
+        margin-top: 100px;
+        margin-left: 30px;
+
+    }
+    .shadow{
+        box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 5.45) !important;
+        width: 100% !important;
+    }
+    .colom2{
+        margin-left: 0px !important;
+    }
+    .car{
+        height: 520px;
+        width: 110%;
+        
+    }
+    
+}
